@@ -1,0 +1,45 @@
+{
+  "simulation": "org.apache.openwhisk.BlockingInvokeOneActionSimulation",
+  "simulationId": "blockinginvokeoneactionsimulation",
+  "start": 1543864076901,
+  "description": "",
+  "scenarios": ["Invoke one action blocking"],
+  "assertions": [
+{
+  "path": "Invoke action",
+  "target": "mean requests per second",
+  "condition": "is greater than",
+  "expectedValues": [0.0],
+  "result": true,
+  "message": "Invoke action: mean requests per second is greater than 0.0",
+  "actualValue": [10.0]
+},
+{
+  "path": "Invoke action",
+  "target": "mean requests per second",
+  "condition": "is greater than",
+  "expectedValues": [9.0],
+  "result": true,
+  "message": "Invoke action: mean requests per second is greater than 9.0",
+  "actualValue": [10.0]
+},
+{
+  "path": "Invoke action",
+  "target": "count of failed requests",
+  "condition": "is less than or equal to",
+  "expectedValues": [99999.0],
+  "result": true,
+  "message": "Invoke action: count of failed requests is less than or equal to 99999.0",
+  "actualValue": [45.0]
+},
+{
+  "path": "Invoke action",
+  "target": "percentage of failed requests",
+  "condition": "is less than or equal to",
+  "expectedValues": [0.99],
+  "result": false,
+  "message": "Invoke action: percentage of failed requests is less than or equal to 0.99",
+  "actualValue": [66.17647058823529]
+}
+  ]
+}
