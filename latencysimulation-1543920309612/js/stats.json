@@ -1,0 +1,395 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 4,
+        "ok": 4,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 140,
+        "ok": 140,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 2475,
+        "ok": 2475,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 1254,
+        "ok": 1254,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 1048,
+        "ok": 1048,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 1201,
+        "ok": 1201,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 2201,
+        "ok": 2201,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 2420,
+        "ok": 2420,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 2464,
+        "ok": 2464,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 2,
+        "percentage": 50
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 2,
+        "percentage": 50
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.6666666666666666,
+        "ok": 0.6666666666666666,
+        "ko": 0
+    }
+},
+"contents": {
+"req_create-python-d-dd896": {
+        "type": "REQUEST",
+        "name": "Create python:default action",
+"path": "Create python:default action",
+"pathFormatted": "req_create-python-d-dd896",
+"stats": {
+    "name": "Create python:default action",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 292,
+        "ok": 292,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 292,
+        "ok": 292,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 292,
+        "ok": 292,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 292,
+        "ok": 292,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 292,
+        "ok": 292,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 292,
+        "ok": 292,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 292,
+        "ok": 292,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    },"req_cold-python-def-b7e74": {
+        "type": "REQUEST",
+        "name": "Cold python:default invocation",
+"path": "Cold python:default invocation",
+"pathFormatted": "req_cold-python-def-b7e74",
+"stats": {
+    "name": "Cold python:default invocation",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 2110,
+        "ok": 2110,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 2110,
+        "ok": 2110,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 2110,
+        "ok": 2110,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 2110,
+        "ok": 2110,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 2110,
+        "ok": 2110,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 2110,
+        "ok": 2110,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 2110,
+        "ok": 2110,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    },"req_warm-python-def-83719": {
+        "type": "REQUEST",
+        "name": "Warm python:default invocation",
+"path": "Warm python:default invocation",
+"pathFormatted": "req_warm-python-def-83719",
+"stats": {
+    "name": "Warm python:default invocation",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 2475,
+        "ok": 2475,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 2475,
+        "ok": 2475,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 2475,
+        "ok": 2475,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 2475,
+        "ok": 2475,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 2475,
+        "ok": 2475,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 2475,
+        "ok": 2475,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 2475,
+        "ok": 2475,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    },"req_delete-python-d-b756d": {
+        "type": "REQUEST",
+        "name": "Delete python:default action",
+"path": "Delete python:default action",
+"pathFormatted": "req_delete-python-d-b756d",
+"stats": {
+    "name": "Delete python:default action",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 140,
+        "ok": 140,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 140,
+        "ok": 140,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 140,
+        "ok": 140,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 140,
+        "ok": 140,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 140,
+        "ok": 140,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 140,
+        "ok": 140,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 140,
+        "ok": 140,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 1,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.16666666666666666,
+        "ok": 0.16666666666666666,
+        "ko": 0
+    }
+}
+    }
+}
+
+}
