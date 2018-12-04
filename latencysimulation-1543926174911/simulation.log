@@ -1,0 +1,11 @@
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24EAAECBwAAAAAAAECPQA==
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24EAAECBgAAAAAAAECPQA==
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24BAAIHAAAAAADwafhA
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24DAAIHAK5H4XoUru8/
+RUN	org.apache.openwhisk.LatencySimulation		latencysimulation	1543926174911	 	2.0
+USER	Invoke one action after each other to test latency	1	START	1543926177502	1543926177502
+REQUEST	Invoke one action after each other to test latency	1		Create python:default action	1543926177760	1543926178052	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Cold python:default invocation	1543926178140	1543926179874	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543926179933	1543926182092	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Delete python:default action	1543926182093	1543926182301	OK	 
+USER	Invoke one action after each other to test latency	1	END	1543926177502	1543926182313

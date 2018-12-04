@@ -1,0 +1,45 @@
+{
+  "simulation": "org.apache.openwhisk.LatencySimulation",
+  "simulationId": "latencysimulation",
+  "start": 1543925192882,
+  "description": "",
+  "scenarios": ["Invoke one action after each other to test latency"],
+  "assertions": [
+{
+  "path": "Warm python:default invocation",
+  "target": "mean of response time",
+  "condition": "is less than or equal to",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "Warm python:default invocation: mean of response time is less than or equal to 1000.0",
+  "actualValue": [2167.0]
+},
+{
+  "path": "Warm python:default invocation",
+  "target": "mean of response time",
+  "condition": "is less than",
+  "expectedValues": [1000.0],
+  "result": false,
+  "message": "Warm python:default invocation: mean of response time is less than 1000.0",
+  "actualValue": [2167.0]
+},
+{
+  "path": "Warm python:default invocation",
+  "target": "count of failed requests",
+  "condition": "is less than or equal to",
+  "expectedValues": [99999.0],
+  "result": true,
+  "message": "Warm python:default invocation: count of failed requests is less than or equal to 99999.0",
+  "actualValue": [0.0]
+},
+{
+  "path": "Warm python:default invocation",
+  "target": "percentage of failed requests",
+  "condition": "is less than or equal to",
+  "expectedValues": [0.99],
+  "result": true,
+  "message": "Warm python:default invocation: percentage of failed requests is less than or equal to 0.99",
+  "actualValue": [0.0]
+}
+  ]
+}
