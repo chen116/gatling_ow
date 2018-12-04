@@ -1,0 +1,19 @@
+ASSERTION	AAEAAR5XYXJtIG5vZGVqczpkZWZhdWx0IGludm9jYXRpb24EAAECBwAAAAAAAECfQA==
+ASSERTION	AAEAAR5XYXJtIG5vZGVqczpkZWZhdWx0IGludm9jYXRpb24EAAECBgAAAAAAAECfQA==
+ASSERTION	AAEAAR5XYXJtIG5vZGVqczpkZWZhdWx0IGludm9jYXRpb24BAAIHAAAAAADwafhA
+ASSERTION	AAEAAR5XYXJtIG5vZGVqczpkZWZhdWx0IGludm9jYXRpb24DAAIHAK5H4XoUru8/
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24EAAECBwAAAAAAAECfQA==
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24EAAECBgAAAAAAAECfQA==
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24BAAIHAAAAAADwafhA
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24DAAIHAK5H4XoUru8/
+RUN	org.apache.openwhisk.LatencySimulation		latencysimulation	1543876923693	 	2.0
+USER	Invoke one action after each other to test latency	1	START	1543876926261	1543876926261
+REQUEST	Invoke one action after each other to test latency	1		Create nodejs:default action	1543876926500	1543876926816	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Cold nodejs:default invocation	1543876926903	1543876927040	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm nodejs:default invocation	1543876927993	1543876928095	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Delete nodejs:default action	1543876928096	1543876928331	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Create python:default action	1543876928333	1543876928481	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Cold python:default invocation	1543876928482	1543876931724	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543876932723	1543876934842	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Delete python:default action	1543876934844	1543876935014	OK	 
+USER	Invoke one action after each other to test latency	1	END	1543876926261	1543876935022
