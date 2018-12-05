@@ -1,0 +1,20 @@
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24EAAECBwAAAAAAAHCnQA==
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24EAAECBgAAAAAAAHCnQA==
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24BAAIHAAAAAADwafhA
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24DAAIHAK5H4XoUru8/
+RUN	org.apache.openwhisk.LatencySimulation		latencysimulation	1543991185762	 	2.0
+USER	Invoke one action after each other to test latency	1	START	1543991188392	1543991188392
+REQUEST	Invoke one action after each other to test latency	1		Create python:default action	1543991188630	1543991188977	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Cold python:default invocation	1543991189080	1543991189781	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991190742	1543991190845	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991191842	1543991191943	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991192941	1543991195128	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991196121	1543991196222	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991197231	1543991197326	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991198321	1543991198423	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991199431	1543991201854	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991202851	1543991202946	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991203951	1543991204056	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1543991205051	1543991205146	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Delete python:default action	1543991205147	1543991205421	OK	 
+USER	Invoke one action after each other to test latency	1	END	1543991188392	1543991205433
