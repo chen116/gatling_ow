@@ -1,0 +1,47 @@
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24EAAECBwAAAAAAAABZQA==
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24EAAECBgAAAAAAAABZQA==
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24BAAIHAAAAAADwafhA
+ASSERTION	AAEAAR5XYXJtIHB5dGhvbjpkZWZhdWx0IGludm9jYXRpb24DAAIHAK5H4XoUru8/
+RUN	org.apache.openwhisk.LatencySimulation		latencysimulation	1544007746931	 	2.0
+USER	Invoke one action after each other to test latency	1	START	1544007749573	1544007749573
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007749761	1544007751066	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007751142	1544007752237	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007752239	1544007753219	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007753220	1544007754463	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007754465	1544007755702	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007755703	1544007756931	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007756933	1544007758163	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007758165	1544007759393	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007759394	1544007760623	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007760625	1544007761860	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007761861	1544007763095	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007763096	1544007764329	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007764331	1544007765552	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007765553	1544007766793	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007766794	1544007768039	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007768040	1544007769272	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007769273	1544007770512	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007770513	1544007771751	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007771753	1544007772982	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007772983	1544007774222	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007774223	1544007775462	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007775463	1544007776700	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007776702	1544007777932	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007777933	1544007779169	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007779170	1544007780401	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007780402	1544007781631	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007781632	1544007782863	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007782865	1544007784094	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007784095	1544007785319	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007785321	1544007786541	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007786543	1544007787775	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007787776	1544007789002	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007789003	1544007790230	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007790231	1544007791460	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007791462	1544007792682	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007792683	1544007793914	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007793915	1544007795148	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007795149	1544007796379	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007796380	1544007797600	OK	 
+REQUEST	Invoke one action after each other to test latency	1		Warm python:default invocation	1544007797602	1544007798829	OK	 
+USER	Invoke one action after each other to test latency	1	END	1544007749573	1544007798835
